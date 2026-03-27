@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Back the Vote",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,53 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guide",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Campaigns",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "guides/creating-campaigns",
+              "guides/campaign-settings",
+              "guides/sharing-campaigns"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Submissions",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "guides/reviewing-submissions",
+              "guides/video-studio"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Showcases",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "guides/creating-showcases",
+              "guides/embedding-showcases"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "guides/dashboard",
+              "guides/settings"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Supporter Guide",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "For Supporters",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "supporter/submitting-endorsement"
             ]
           }
         ]
@@ -71,14 +66,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Back the Vote",
+          "href": "https://backvote.co",
+          "icon": "check-to-slot"
         }
       ]
     }
@@ -91,32 +81,19 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@backvote.co"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.backvote.co/dashboard"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/backthevote",
+      "linkedin": "https://linkedin.com/company/backthevote"
     }
   }
 }
