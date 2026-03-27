@@ -67,7 +67,7 @@
       "anchors": [
         {
           "anchor": "Back the Vote",
-          "href": "https://backvote.co",
+          "href": "https://backthevote.com",
           "icon": "check-to-slot"
         }
       ]
@@ -81,13 +81,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@backvote.co"
+        "href": "mailto:support@backthevote.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.backvote.co/dashboard"
+      "href": "https://backthevote.com/dashboard"
     }
   },
   "footer": {
